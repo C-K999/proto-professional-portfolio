@@ -1,0 +1,181 @@
+:root{
+    --background: rgb(245, 226, 158);
+    --text-background: rgb(249, 237, 192);
+    --dark-brown: #79390b;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background);
+}
+
+/* Header formatting */
+header {
+    top:0;
+    position: top;
+    padding: 20px;
+    font-family: 'Trebutchet MS','Open Sans', 'Roboto Slab', 'Monsterrat', Arial, sans-serif;
+    background-color: var(--dark-brown);
+    color: var(--text-background);
+    height:10%;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Header-side links formatting */
+nav {
+    position:sticky;
+    z-index: 1;
+    clear: both;
+    left:0;
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    background-color: #d8a47f;
+    float: left;
+    font-size: 20px;
+}
+
+nav ul {
+    line-height: 2;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav a {
+    color: var(--dark-brown);
+    text-decoration: none;
+    text-align: left;
+  }
+
+nav a:hover{
+    color: black;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Class for formatting the sidebar elements */
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Eyecatcher image formatting */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main passage image formatting */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+
+.content {
+    width: 75%;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.15;
+}
+
+/* Formatting for each section */
+.about {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Trebutchet MS','Open Sans', 'Roboto Slab', 'Monsterrat', Arial, sans-serif;
+    background-color: var(--text-background);
+    color: var(--dark-brown);
+}
+
+.experiences {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Trebutchet MS','Open Sans', 'Roboto Slab', 'Monsterrat', Arial, sans-serif;
+    background-color: var(--text-background);
+    color: var(--dark-brown);
+}
+
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Trebutchet MS','Open Sans', 'Roboto Slab', 'Monsterrat', Arial, sans-serif;
+    background-color: var(--text-background);
+    color: var(--dark-brown);
+}
+
+.goals {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Trebutchet MS','Open Sans', 'Roboto Slab', 'Monsterrat', Arial, sans-serif;
+    background-color: var(--text-background);
+    color: var(--dark-brown);
+}
+
+.contact {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Trebutchet MS','Open Sans', 'Roboto Slab', 'Monsterrat', Arial, sans-serif;
+    background-color: var(--text-background);
+    color: var(--dark-brown);
+}
+
+.about img {
+    max-height: 200px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* Footer formatting */
+footer {
+    padding: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:var(--text-background);
+    background-color: var(--dark-brown);
+}
