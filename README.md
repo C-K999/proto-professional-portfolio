@@ -14,4 +14,4 @@ The minimum requirements for a portfolio should include
 * A link to contact info
 * A responsive layout that attempts to adapt to different viewports
 
-[portfolio]:
+[portfolio]:https://c-k999.github.io/proto-professional-portfolio/
