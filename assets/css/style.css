@@ -42,12 +42,12 @@ header img{
 /* Header-side links formatting */
 nav {
     position:sticky;
+    flex: 1 1 100%;
     z-index: 1;
     clear: both;
     left:0;
     width: 20%;
     font-family: 'Trebutchet MS','Open Sans', 'Roboto Slab', 'Monsterrat', Arial, sans-serif;
-    display: flex;
     background-color: #d8a47f;
     float: left;
     font-size: 20px;
@@ -73,46 +73,11 @@ p {
     font-size: 16px;
 }
 
-/* Class for formatting the sidebar elements */
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 /* Eyecatcher image formatting */
-.hero {
-    height: 800px;
-    width: 100%;
+.figure {
+    display: flex;
+    flex: 1 0 200px;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/* Main passage image formatting */
-.float-left {
-    float: left;
-    margin-right: 25px;
 }
 
 
@@ -125,6 +90,7 @@ p {
 
 /* Formatting for each section */
 .about {
+    flex-flow: column wrap;
     margin-bottom: 20px;
     padding-top: 50px;
     padding-bottom: 150px;
@@ -135,12 +101,38 @@ p {
 }
 
 .projects {
+    flex: 4;
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--text-background);
     color: var(--dark-brown);
+}
+
+/* Image entries */
+.showcase {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 20px;
+    flex: 1 0 300px;
+}
+
+.showcase header {
+    padding: 20px;
+}
+  
+  .showcase p {
+    text-align: center;
+}
+  
+.showcase img {
+    width: 100%;
 }
 
 .contact {
@@ -151,6 +143,8 @@ p {
     background-color: var(--text-background);
     color: var(--dark-brown);
 }
+
+/* Content formatting */
 
 .about img {
     max-height: 300px;
