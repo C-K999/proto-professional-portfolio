@@ -15,3 +15,12 @@ The minimum requirements for a portfolio should include
 * A responsive layout that attempts to adapt to different viewports
 
 [portfolio]:https://c-k999.github.io/proto-professional-portfolio/
+
+
+
+
+---
+
+© 2022 Clement Koo
+[LinkdIn](https://www.linkedin.com/in/clement-t-k-459322138/) |
+[GitHub](https://github.com/C-K999) All Rights Reserved.
